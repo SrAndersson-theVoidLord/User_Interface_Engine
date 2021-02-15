@@ -18,86 +18,17 @@ public:
     return;
 }
     void Interface_Menu_Principal(){
-    Menu_window.Summon_Window(30,0,70,40,"ALQUILERES TOP BICYCLES","MENU PRINCIPAL ","(MODO USUARIO)","INGRESA UNA OPCION VALIDA PARA CONTINUAR:","OPCION:");
-    Option.Summon_Button(40,7,50,3,"1-BICICLETAS.");
-    Option.Summon_Button(40,11,50,3,"2-CLIENTES.");
-    Option.Summon_Button(40,15,50,3,"3-EMPLEADOS.");
-    Option.Summon_Button(40,19,50,3,"4-ALQUILERES.");
-    Option.Summon_Button(40,23,50,3,"5-REPARACION.");
-    Option.Summon_Button(40,27,50,3,"6-CONFIGURACION.");
+    Menu_window.Summon_Window(30,0,70,40,"PRUEBA DE MENU PRINCIPAL PROGRAMA DE GESTION(C++)","MENU PRINCIPAL ","(MODO DE APERTURA)","INGRESA UNA OPCION VALIDA PARA CONTINUAR:","OPCION:");
+    Option.Summon_Button(40,7,50,3,"OPCION 1.");
+    Option.Summon_Button(40,11,50,3,"OPCION 2");
+    Option.Summon_Button(40,15,50,3,"OPCION 3");
+    Option.Summon_Button(40,19,50,3,"OPCION 4");
+    Option.Summon_Button(40,23,50,3,"OPCION 5");
+    Option.Summon_Button(40,27,50,3,"OPCION 6");
     Option.Summon_Button(40,33,50,2,"0-SALIR.",RED,RED);
     }
 
-      void Interface_Menu_Bicicletas(){
-    Menu_window.Summon_Window(30,0,70,40,"ALQUILERES TOP BICYCLES","MENU BICICLETAS ","(MODO USUARIO)","INGRESA UNA OPCION VALIDA PARA CONTINUAR:","OPCION:");
-    Option.Summon_Button(40,7,50,3,"1-ALTA BICICLETAS");
-    Option.Summon_Button(40,11,50,3,"2-MODIFICAR ESTADO DE BICICLETA");
-    Option.Summon_Button(40,15,50,3,"3-ELIMINAR BICICLETA");
-    Option.Summon_Button(40,19,50,3,"4-LISTADO DE BICICLETAS");
-    Option.Summon_Button(40,23,50,3,"5-LISTAR BICICLETA POR ID");
-    Option.Summon_Button(40,27,50,3,"6-REPORTES BICICLETAS");
-    Option.Summon_Button(40,33,50,2,"0-VOLVER AL MENU PRINCIPAL.",RED,RED);
-    }
 
-      void Interface_Menu_Clientes(){
-    Menu_window.Summon_Window(30,0,70,40,"ALQUILERES TOP BICYCLES","MENU CLIENTES ","(MODO USUARIO)","INGRESA UNA OPCION VALIDA PARA CONTINUAR:","OPCION:");
-    Option.Summon_Button(40,7,50,3,"1-ALTA CLIENTE.");
-    Option.Summon_Button(40,11,50,3,"2-MODIFICAR TELEFONO.");
-    Option.Summon_Button(40,15,50,3,"3-ELIMINAR CLIENTE.");
-    Option.Summon_Button(40,19,50,3,"4-LISTAR TODOS LOS CLIENTES.");
-    Option.Summon_Button(40,23,50,3,"5-LISTAR CLIENTE POR DNI.");
-    Option.Summon_Button(40,27,50,3,"6-REPORTES CLIENTES.");
-    Option.Summon_Button(40,33,50,2,"0-VOLVER AL MENU PRINCIPAL.",RED,RED);
-    }
-
-      void Interface_Menu_Empleados(){
-    Menu_window.Summon_Window(30,0,70,40,"ALQUILERES TOP BICYCLES","MENU EMPLEADOS ","(MODO USUARIO)","INGRESA UNA OPCION VALIDA PARA CONTINUAR:","OPCION:");
-    Option.Summon_Button(40,7,50,3,"1-NUEVO EMPLEADO.");
-    Option.Summon_Button(40,11,50,3,"2-MODIFICAR EMPLEADO.");
-    Option.Summon_Button(40,15,50,3,"3-ELIMINAR EMPLEADO.");
-    Option.Summon_Button(40,19,50,3,"4-LISTAR TODOS LOS EMPLEADOS.");
-    Option.Summon_Button(40,23,50,3,"5-LISTAR EMPLEADO POR ID.");
-    Option.Summon_Button(40,27,50,3,"6-REPORTES EMPLEADOS.");
-    Option.Summon_Button(40,33,50,2,"0-VOLVER AL MENU PRINCIPAL.",RED,RED);
-    }
-
-      void Interface_Menu_Alquileres(){
-    Menu_window.Summon_Window(30,0,70,40,"ALQUILERES TOP BICYCLES","MENU ALQUILERES ","(MODO USUARIO)","INGRESA UNA OPCION VALIDA PARA CONTINUAR:","OPCION:");
-    Option.Summon_Button(40,7,50,3,"1-ALTA ALQUILERES.");
-    Option.Summon_Button(40,11,50,3,"2-BAJA ALQUILERES.");
-    Option.Summon_Button(40,15,50,3,"3-ENTREGA ALQUILER.");
-    Option.Summon_Button(40,19,50,3,"4-LISTAR TODOS.");
-    Option.Summon_Button(40,23,50,3,"5-LISTAR POR ID.");
-    Option.Summon_Button(40,27,50,3,"6-REPORTES ALQUILERES.");
-    Option.Summon_Button(40,33,50,2,"0-VOLVER AL MENU PRINCIPAL.",RED,RED);
-    }
-
-      void Interface_Menu_Reparaciones(){
-    Menu_window.Summon_Window(30,0,70,40,"ALQUILERES TOP BICYCLES","MENU REPARACIONES ","(MODO USUARIO)","INGRESA UNA OPCION VALIDA PARA CONTINUAR:","OPCION:");
-    Option.Summon_Button(40,7,50,3,"1-INGRESOS AL TALLER.");
-    Option.Summon_Button(40,11,50,3,"2-SALIDAS DEL TALLER.");
-    Option.Summon_Button(40,15,50,3,"3-LISTAR TODAS LAS REPARACIONES.");
-    Option.Summon_Button(40,19,50,3,"4-LISTAR REPARADAS.");
-    Option.Summon_Button(40,23,50,3,"5-LISTAR REPARACION POR ID INGRESO.");
-    Option.Summon_Button(40,27,50,3,"6-LISTAR POR ID BICICLETA.");
-    Option.Summon_Button(40,33,50,2,"0-VOLVER AL MENU PRINCIPAL.",RED,RED);
-    }
-
-      void Interface_Menu_Configuracion(){
-    Menu_window.Summon_Window(30,0,70,40,"ALQUILERES TOP BICYCLES","MENU CONFIGURACION ","(MODO ADMINISTRADOR)","INGRESA UNA OPCION VALIDA PARA CONTINUAR:","OPCION:");
-    Option.Summon_Button(40,7,50,3,"1-BICICLETAS.");
-    Option.Summon_Button(40,11,50,3,"2-CLIENTES.");
-    Option.Summon_Button(40,15,50,3,"3-EMPLEADOS.");
-    Option.Summon_Button(40,19,50,3,"4-ALQUILERES.");
-    Option.Summon_Button(40,23,50,3,"5-REPARACION.");
-    Option.Summon_Button(40,27,50,3,"6-CONFIGURACION.");
-    Option.Summon_Button(40,33,50,2,"0-VOLVER AL MENU PRINCIPAL.",RED,RED);
-    }
-
-    void Interface_Menu_Reportes_Bicicletas(){
-
-
-    }
  void firma_Desarrollador(){
 
  int i;

@@ -13,7 +13,7 @@
 void Menu_Principal_Beta()
 {
      system("cls");
-     SetConsoleTitle("ALQUILERES DE BICICLETAS TOP BICYCLES(USUARIO)");
+     SetConsoleTitle("NOMBRE DEL PROGRAMA (MODO DE APERTURA)");
 
 
     int menu_item=1, run, x=9,opcion=0;
@@ -36,30 +36,30 @@ M.Interface_Menu_Principal();
         switch(x){
            case 9:
         opcion=1;
-        strcpy(Nombre_opcion,"BICICLETAS");
+        strcpy(Nombre_opcion,"OPCION 1");
         break;
 
 	     case 13:
 	         opcion=2;
-	         strcpy(Nombre_opcion,"CLIENTES");
+	         strcpy(Nombre_opcion,"OPCION 2");
         break;
 
         case 17:
 	         opcion=3;
-	         strcpy(Nombre_opcion,"EMPLEADOS");
+	         strcpy(Nombre_opcion,"OPCION 3");
         break;
 
         case 21:
 	         opcion=4;
-	         strcpy(Nombre_opcion,"ALQUILERES");
+	         strcpy(Nombre_opcion,"OPCION 4");
         break;
         case 25:
 	         opcion=5;
-	         strcpy(Nombre_opcion,"REPARACION");
+	         strcpy(Nombre_opcion,"OPCION 5");
         break;
         case 29:
 	         opcion=6;
-	         strcpy(Nombre_opcion,"CONFIGURACION");
+	         strcpy(Nombre_opcion,"OPCION 6");
         break;
 
          case 34:
